@@ -1,0 +1,35 @@
+.btn-search{
+    width: 15%;
+    background: #e9ecef;
+    text-align: center;
+    font-size: 76px;
+    cursor: pointer;
+    color:#6c757d;
+    height: 116px;
+}
+ .toast-position{
+     position: absolute;
+    z-index: 10;
+    right: 25px;
+    top: 7px;
+ }
+ .room-image{
+     width: 120px;
+ }
+ 
+ .table-cell{
+cursor: pointer !important;
+ }
+@media screen and (max-width: 680px) {
+    .btn-search{
+        width: 15%;
+        background: #e9ecef;
+        text-align: center;
+        font-size: 33px;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}
+
