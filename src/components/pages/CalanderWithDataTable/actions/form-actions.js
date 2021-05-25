@@ -2,7 +2,7 @@ import api from "../../../../api/api";
 
 const CalendarActions = {
     GetData: async (callback) => {
-        await api.get('/').then(response => {
+        await api.get(`/?${new Date().getTime()}`).then(response => {
             try {
                 return callback(response.data);
             } catch (error) { }
